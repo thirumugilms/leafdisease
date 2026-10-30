@@ -1,6 +1,7 @@
 import streamlit as st
 import cv2 as cv
 import numpy as np
+from API.app import app
 from tensorflow.keras.models import load_model
 from tensorflow.keras.applications import mobilenet_v2
 from tensorflow.keras.preprocessing import image
